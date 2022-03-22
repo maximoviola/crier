@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+.padre{
+    width: 100vw;
+}
 
 .section1{
     height: 100vh;
@@ -98,6 +101,7 @@ margin-left: 10px;
 }
 .nosotros{
     height:80%;
+    width: 100vw;
 }
 
 .valores{
@@ -114,10 +118,11 @@ margin-left: 10px;
 .contenidovalores{
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly
 }
 
 .imgvalores{
-    height: 150px;
+    height: 30%;
     margin: 30px;
     margin-bottom:15px;
 }
