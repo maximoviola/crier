@@ -70,13 +70,17 @@ margin-left: 10px;
     font-size: 24px;
     margin-top: 27px;
 }
-
-.menu li{
+a{
+    text-decoration: none;
+    color: black;
+}
+.menu ul li{
     margin-right: 4px;
     font-family: roboto;
     font-weight: 400;
     font-size: 1.3rem;
     text-transform: uppercase;
+    text-decoration: none;
 }
 
 .imagen1{
@@ -255,4 +259,89 @@ ul {
 
 iframe{
     border-radius: 20px;
+}
+.profesionales{
+    display: flex;
+    width: 80vw;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.profesionales1 img{
+    width:90%;
+    max-width: 550px;
+    min-width: 350px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: auto;
+}
+
+.nosotros{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.crier-nosotros{
+    padding-bottom: 40px;
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 23px;
+    width: 70%;
+    margin:25px;
+    margin:auto;
+    margin-top: 32px;
+    text-align:center;
+}
+
+.profesionales h3{
+    padding-top: 30px;
+}
+
+.nosotros-terapias{
+    background-image: url(images/blur-hospita.png);
+    height: 100%;
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.form-contacto-2{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+    background: #fafa;
+    height: 40vh;
+    margin-top: 15px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    justify-content: space-around;
+}
+
+.educacion{
+    background-image: url(images/blur-hospita.png);
+    height: 100%;
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.educacion-texto h3{
+    padding-bottom: 40px;
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 23px;
+    width: 70%;
+    margin:25px;
+    margin:auto;
+    margin-top: 32px;
+    text-align:center;
+
 }
