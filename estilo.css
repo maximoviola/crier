@@ -349,3 +349,96 @@ iframe{
     text-align:center;
 
 }
+
+
+@media screen and (max-width:800px){
+    /* .textoterapias h3{
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        text-align: center;
+        width: 50%;
+        font-family: roboto;
+        font-weight: 600, semibold;
+        font-size: 14px;
+        padding-left: 10px;
+        padding-right: 10px;
+    } */
+
+    h3{
+        font-size: 0.85em;
+    }
+
+    .textoterapias{
+        
+        margin-top: 28px;
+
+    }
+    .boton {
+        
+        margin-top: 5px;
+    }
+
+}
+
+
+@media screen and (max-width:550px){
+    .especialidadpar{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+        align-items: center;
+        margin:auto;
+        margin-bottom: 3%;
+    }
+    .especialidadimpar{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+        align-items: center;
+        margin:auto;
+        margin-bottom: 3%;
+    }
+    .textoterapias{
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        text-align: center;
+        width: 80%;
+        min-width: 190px;
+        font-family: roboto;
+        font-weight: 600, semibold;
+        font-size: 18px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 15px;
+    }
+    .boton {
+        
+        font-size: 13px;
+    }
+    .imagenterapias{
+        width: 80%;
+        min-width: 200px;
+    }
+    .imagenes{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        padding-top: 60px;
+        height: 300px;
+    }
+    .imagen1 {
+        width: 90px;
+        margin: 5px;
+    }
+
+}
