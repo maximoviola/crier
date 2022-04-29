@@ -440,5 +440,40 @@ iframe{
         width: 90px;
         margin: 5px;
     }
+    
+    .valores {
+        display: flex;
+        
+        height: 40vh;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 600px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        justify-content: space-evenly;
+        background-color: #ececec;
+    }
+    .contenidovalores{
+        display: flex;
+        flex-direction:column;
+        justify-content: space-evenly
+    }
+    .calidad{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
+    .terapias{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
+        height:100VH;
+    }
+.crier{
+    font-size:15px;
+}
+
+    
 }
