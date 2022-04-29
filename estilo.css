@@ -433,7 +433,7 @@ iframe{
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
-        padding-top: 60px;
+        padding-top: 10px;
         height: 300px;
     }
     .imagen1 {
@@ -487,5 +487,10 @@ iframe{
 .form-contacto h4{
     font-size:14px;
 } 
+
+.terapias {
+    background-image: url(images/blur-hospita.png);
+    height: 250px;
+}
 
 }
