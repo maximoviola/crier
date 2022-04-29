@@ -444,10 +444,10 @@ iframe{
     .valores {
         display: flex;
         
-        height: 40vh;
+        height: 750px;
         flex-direction: column;
         align-items: center;
-        padding-top: 600px;
+        padding-top: 0px;
         padding-bottom: 0px;
         margin-bottom: 0px;
         justify-content: space-evenly;
@@ -462,6 +462,7 @@ iframe{
         display: flex;
         flex-direction: column;
         align-items: center;
+        height: 200px;
     }
 
     .terapias{
@@ -469,11 +470,22 @@ iframe{
         flex-direction: column;
         align-items: center;
         flex-wrap: nowrap;
-        height:100VH;
+        height: 200px;
     }
 .crier{
     font-size:15px;
 }
+.especialidades{
+    padding-top:20px;
 
-    
+}
+
+.form-contacto {
+    font-size:25px;
+
+} 
+.form-contacto h4{
+    font-size:14px;
+} 
+
 }
