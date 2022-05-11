@@ -2,21 +2,76 @@
     margin: 0;
     padding: 0;
 }
+html{
+    width: 100vw;
+}
 .padre{
     width: 100vw;
 }
+.body__contacto{
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.form{
+    
+    background-color: #ffffff;
+    width: 90%;
+    max-width: 600px;
+    margin:auto;
+    border-radius: 1.5em;
+    padding: 3.5em 1.5em;
+    margin: 3.5em 1.5em;
+}
+.form__container{
+    width: 100%;
+    display: grid;
+    gap: 1em;
+    grid-auto-columns: 100%;
+
+
+}
+.form__title{
+    text-align: center;
+    font-size:1.9rem;
+    margin-bottom: 0.4em;
+
+}
+.form__input{
+    font-size: 1rem;
+    padding: .5em .7em;
+}
+.form__input--message{
+    resize: none;
+    padding: 1.8em 1em;
+    margin-bottom:.5em;
+
+}
+.form__cta{
+background-color: #9fd7f9;
+font-weight: bold;
+padding:.7em 0;
+border-radius:.7em;
+cursor: pointer;
+
+}
 .section1{
     height: 100vh;
 }
 
 .terapias{
-    background-image: url(images/blur-hospita.png);
+    background-image: url(images/blur-hospital.png);
     height: 100%;
+    background-size: cover;
+    
 }
 
 .navbar-collapse{
-    padding-top:70px;
+    padding-top:40px;
 }
 
 .menu li{
@@ -131,7 +186,7 @@ a{
     padding-bottom:20px;
     margin-bottom: 30px;
     justify-content: space-evenly;
-    background-color: #ececec;
+    background-color: #ececec59;
 }
 
 .contenidovalores{
@@ -248,6 +303,7 @@ ul {
     padding-top:35px;
     padding-bottom: 40px;
     background-color: #e7e7e7;
+    width: 100%;
 }
 
 .titulo_mapa{
@@ -287,13 +343,9 @@ iframe{
 .navbar {
     width: 100vw;
     display: flex;
-    height: 90px;
+    height: 70px;
 }
-.navbar-expand-lg .navbar-collapse {
-    display: flex!important;
-    flex-basis: auto;
-    font-size: 1.3em;
-}
+
 .imagen__logo {
     width: 210px;
 
@@ -325,7 +377,7 @@ iframe{
 }
 
 .nosotros-terapias{
-    background-image: url(images/blur-hospita.png);
+    background-image: url(images/blur-hospital.png);
     height: 100%;
 
     display:flex;
@@ -340,20 +392,22 @@ iframe{
     width:100%;
     background: #fafa;
     height: 40vh;
-    margin-top: 15px;
+    /* margin-top: 15px; */
     padding-top: 25px;
     padding-bottom: 15px;
     justify-content: space-around;
 }
 
 .educacion{
-    background-image: url(images/blur-hospita.png);
-    height: 100%;
+    background-image: url(images/blur-hospital.png);
+    height: 500px;
 
     display:flex;
     flex-direction: column;
     align-items: center;
     flex-wrap: nowrap;
+    justify-content:space-evenly;
+    padding-top: 35px;
 }
 
 .educacion-texto h3{
@@ -368,30 +422,39 @@ iframe{
     text-align:center;
 
 }
+.footer{
+    display: flex;
+    
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height:60px;
+    background-color: #d4d2d2;
+    width: 100%;
+}
+.footer__texto{
+    font-size:17px;
+    text-align: center;
+}
+.titulo-educacion{
+    font-size: 24px;
+}
+.texto-educacion {
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 22px;
+    max-width: 550px;
+    text-align: center;
+}
 
 
 @media screen and (max-width:990px){
-    /* .textoterapias h3{
-        display: flex;
-        align-items: center;
-        flex-wrap: nowrap;
-        flex-direction: column;
-        text-align: center;
-        width: 50%;
-        font-family: roboto;
-        font-weight: 600, semibold;
-        font-size: 14px;
-        padding-left: 10px;
-        padding-right: 10px;
-    } */
+   
 
     h3{
         font-size: 0.85em;
     }
-    .imagen__logo{
-        height: 200px;        ;
-        width: 200px;
-    }
+    
 
     .textoterapias{
         
@@ -403,26 +466,38 @@ iframe{
         margin-top: 5px;
     }
 
-    .navbar-expand-lg .navbar-collapse {
-        display: flex!important;
-        flex-basis: auto;
-        font-size: 1.3em;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        align-content: flex-start;
-        align-items: flex-start;
-    }
+    
     .imagen__logo {
-        height: 200px;
-        width: 200px;
-        margin-top: -120px;
+        margin-top: 0px;
         height: 150px;
         width: 150px;
     }
-    .navbar-expand-lg .navbar-collapse {
-    
-        background-color: #dfd0d0f5;
+    .crier-nosotros{
+        font-size:18px;
     }
+    ul li h4 {
+        font-size:15px;
+    }
+    ul li h3 {
+       font-size:15px;
+       font-weight: bold;
+    }
+    .navbar-collapse {
+        padding-top: 70px;
+        background-color: #cdccccf2;
+    }
+    .titulo-educacion{
+        font-size: 21px;
+        text-align: center;
+    }
+    .texto-educacion{
+       
+        font-size: 20px;
+        max-width: 480px;
+        
+    
+    }
+    
 }
 
 
@@ -515,36 +590,64 @@ iframe{
         flex-wrap: nowrap;
         height: 200px;
     }
-.crier{
-    font-size:15px;
-}
-.especialidades{
-    padding-top:20px;
+    .crier-nosotros{
+        font-size:13px;
+    }
+    .especialidades{
+        padding-top:20px;
 
-}
+    }
 
-.form-contacto {
-    font-size:25px;
+    .form-contacto {
+        font-size:25px;
 
-} 
-.form-contacto h4{
-    font-size:14px;
-} 
+    } 
+    .form-contacto h4{
+        font-size:10px;
+    } 
 
-.terapias {
-    background-image: url(images/blur-hospita.png);
-    height: 600px;
-}
+    .terapias {
+        background-image: url(images/blur-hospital.png);
+        height: 600px;
+    }
 
-.imagen__logo {
-    height: 200px;
-    width: 200px;
-    margin-top: -190px;
-    height: 110px;
-    width: 110px;
-}
-.navbar-expand-lg .navbar-collapse {
+    .imagen__logo {
+       
+        margin-top: 0px;
+        height: 110px;
+        width: 110px;
+    }
+     ul li h4 {
+         font-size:13px;
+     }
+     ul li h3 {
+        font-size:13px;
+        font-weight: bold;
+     }
+
+     .navbar-collapse {
+        padding-top: 70px;
+        background-color: #cdccccf2;
+    }
+    .form{
     
-    background-color: #dfd0d0f5;
+        padding: 2em 1em;
+        
+    }
+    .titulo-educacion{
+        font-size: 19px;
+        text-align: center;
+    }
+    .texto-educacion{
+       
+        font-size: 18px;
+        max-width: 420px;
+        
+    
+    }
+    .footer__texto{
+        font-size: 1rem;
+    }
 }
-}
+
+
