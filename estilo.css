@@ -393,8 +393,8 @@ iframe{
     background: #fafa;
     height: 40vh;
     /* margin-top: 15px; */
-    padding-top: 25px;
-    padding-bottom: 15px;
+    padding-top: 43px;
+    padding-bottom: 45px;
     justify-content: space-around;
 }
 
@@ -428,12 +428,14 @@ iframe{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    height:60px;
+    height:80px;
     background-color: #d4d2d2;
     width: 100%;
 }
 .footer__texto{
     font-size:17px;
+    padding-top:10px;
+    padding-bottom:10px;
     text-align: center;
 }
 .titulo-educacion{
