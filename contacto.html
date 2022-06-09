@@ -16,7 +16,7 @@
         
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#"><img class="imagen__logo" src="images/logocrier.png" alt="logocrier"></a>
+              <a class="navbar-brand" href="index.html"><img class="imagen__logo" src="images/logocrier.png" alt="logocrier"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -32,7 +32,7 @@
                     <a class="nav-link active" aria-current="page" href="educacion.html">Educación</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="quienessomos.html">Quienes Somos</a>
+                    <a class="nav-link active" aria-current="page" href="quienessomos.html">Nosotros</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
@@ -45,31 +45,19 @@
         
     
 
-        <form action="" class="form" method="POST">
+        <form action="enviar.php" method="POST">
             <div class="form__container">
                 <h2 class="form__title" >Contacto</h2>
-                <input type="text" class="form__input" placeholder="Nombre:">
-                <input type="text" class="form__input" placeholder="Celular:">
-                <input type="email" class="form__input" placeholder="Email:">
-                <textarea class="form__input form__input--message"placeholder="Mensaje:"></textarea> 
+                <input type="text" name="nombre" class="form__input" placeholder="Nombre:">
+                <input type="text" name="celular" class="form__input" placeholder="Celular:">
+                <input type="email" name="email" class="form__input" placeholder="Email:">
+                <textarea class="form__input form__input--message" name="mensajito" placeholder="Mensaje:"></textarea> 
 
                 <input type="submit" value="Enviar" class="form__cta">
             </div>
 
         </form>
 
-            <!-- <div class="form-contacto">
-
-                <h3 class="texto-contacto">
-                    <ul>
-                        <li><h3>Horarios</h3></li>
-                        <li><h4>Lunes a viernes de 9 a 19 hs</h4></li> 
-                        <li><h4> Martes 09.30 a 12.00 hs y 16.30 a 19.00 hs</h4></li>
-                        <li><h4> Jueves 09.30 a 12.00 hs y 16.30 a 19.00hs</h4></li>
-                        <li><h4> crieryb@hotmail.com</h4></li>
-                    </ul>
-                </h3>
-            </div> -->
             
             <div class="form-contacto">
 

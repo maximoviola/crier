@@ -28,10 +28,12 @@ html{
     margin: 3.5em 1.5em;
 }
 .form__container{
-    width: 100%;
+    width: 120%;
     display: grid;
     gap: 1em;
     grid-auto-columns: 100%;
+    margin-top: 60px;
+    margin-bottom: 50px;
 
 
 }
@@ -429,7 +431,7 @@ iframe{
 }
 .footer{
     display: flex;
-    
+    z-index: 100000000;
     flex-direction: column;
     justify-content: center;
     align-items: center;
